@@ -78,7 +78,3 @@ Most of that work is proprietary. The public repos below are the smaller, self-c
 - Boring infra: Docker images, Helm charts, GitHub Actions, migrations in version control (Yuniql, TypeORM, Sequelize).
 - LLMs as a last resort: resolve what you can locally, send the rest to the model, and keep the prompt inside the context window.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=harishgupta42&show_icons=true&hide_border=true&count_private=true&theme=default" alt="GitHub stats" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=harishgupta42&layout=compact&hide_border=true&langs_count=6" alt="Top languages" height="160" />
-</p>
