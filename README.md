@@ -1,8 +1,9 @@
 # Hi, I'm Harish Gupta 👋
 
-**Backend & AI Engineer** with 8+ years of building production APIs, microservices and AI-powered services for fintech, HR-tech, healthtech and edtech products, from early-stage startups to enterprise platforms.
+**Backend & AI Engineer** with 9+ years of building production APIs, microservices, AI services and reporting pipelines for fintech, HR-tech, healthtech and edtech products, from early-stage startups to enterprise platforms.
 
-- 🔭 Currently: Lead Consultant building NestJS backend services and Python/FastAPI AI microservices for an enterprise survey-analytics platform (OpenAI, sentence-transformer embeddings, PostgreSQL, Helm, GitHub Actions).
+- 🔭 Currently: Lead Consultant building NestJS backend services and Python/FastAPI AI microservices for an enterprise survey-analytics platform (OpenAI, sentence-transformer embeddings, PostgreSQL, Helm, GitHub Actions), plus its reporting layer (PostgreSQL tuning, materialized views, Tableau, dbt Core on OpenShift).
+- 🎓 Certified: The AI Engineer Course 2026 (Complete AI Engineer Bootcamp).
 - 🏦 Previously: sole backend engineer at a London fintech (card issuance, open banking, real-time cashback engine), APIGEE proxies for an enterprise insurer, and 20+ Node.js backends shipped as an independent contractor.
 - 🌱 Learning: Go, and better ways to keep LLM pipelines cheap and deterministic.
 - 📫 Reach me: [harishgupta42@gmail.com](mailto:harishgupta42@gmail.com) · [LinkedIn](https://linkedin.com/in/harishgupta42)
@@ -40,11 +41,18 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
+**Data & reporting**
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt%20Core-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![Materialized views](https://img.shields.io/badge/PostgreSQL%20tuning%20%26%20materialized%20views-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Apache NiFi](https://img.shields.io/badge/Apache%20NiFi-728E9B?style=flat-square&logo=apache&logoColor=white)
+
 **Cloud & DevOps**
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![APIGEE](https://img.shields.io/badge/APIGEE-FF6F00?style=flat-square&logo=google&logoColor=white)
@@ -54,6 +62,7 @@
 | Domain | What | Stack |
 |---|---|---|
 | HR-tech / AI | Survey mapping pipeline orchestrating item categorisation, scale mapping and response mapping through OpenAI, plus a hybrid local matcher (BGE embeddings + Jaccard) that resolves high-confidence matches without an LLM call | Python, FastAPI, NestJS, TypeORM, PostgreSQL, RabbitMQ |
+| Analytics reporting | Tuned the group-comparison and cohort-authorization SQL behind Tableau dashboards after a production summary spent about seven minutes on temp-disk I/O; built participant and score materialized views and a dynamic pivot so each assessment skill becomes a column with no hand-maintained list | PostgreSQL, Tableau, dbt Core, OpenShift |
 | Fintech | Premium debit card backend: card issuance, PSD2 open-banking integrations, real-time cashback and subscription lifecycle events | NestJS, MongoDB, Socket.io, Bull, AWS |
 | Enterprise APIs | APIGEE proxies and document-protection services for a global insurer | Node.js, APIGEE, Docker, Jest |
 | Marketplaces & bookings | Real-time car-bidding APIs synced from third-party auctions; wellness-session booking platform; will-processing LegalTech APIs | Hapi, PostgreSQL, Sequelize, TypeScript |
